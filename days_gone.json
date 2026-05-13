@@ -1,0 +1,43 @@
+{
+  "app_id": "1259420",
+  "name": "Days Gone",
+  "recommended": {
+    "amd": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "hdr_support"
+    ],
+    "nvidia": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "hdr_support",
+      "hdr_wsi"
+    ],
+    "default": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland"
+    ]
+  },
+  "available": [
+    "gamemode",
+    "mangohud",
+    "ntsync",
+    "proton_wayland",
+    "hdr_support",
+    "hdr_wsi",
+    "dxvk_hud_fps",
+    "virtual_desktop",
+    "no_esync",
+    "no_fsync",
+    "proton_log",
+    "mesa_shader_cache_10g",
+    "mesa_shader_cache_20g"
+  ],
+  "notes": "Days Gone is Steam Deck Verified and has native HDR support. Keep the default DX11 path; the PC release does not support DLSS or ray tracing, so NVIDIA RT/DLSS helpers are not useful here. Use HDR only on a Wayland session with an HDR-capable display."
+}

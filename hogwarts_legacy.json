@@ -1,0 +1,25 @@
+{
+  "app_id": "990080",
+  "name": "Hogwarts Legacy",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync",
+      "amd_radv_icd", "mesa_shader_cache_10g"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync",
+      "nvapi"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync",
+    "nvapi", "vkd3d_dxr", "no_esync",
+    "proton_wayland", "fsr4_upgrade",
+    "amd_radv_icd", "mesa_shader_cache_10g",
+    "proton_log"
+  ],
+  "notes": "UE4 title using DX12/VKD3D. Highly VRAM-intensive. AMD: 10G shader cache prevents severe traversal stuttering in Hogsmeade and the open world; RADV ICD ensures best AMD performance. NVIDIA: NVAPI unlocks DLSS Frame Generation and Super Resolution."
+}

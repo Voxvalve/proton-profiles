@@ -1,0 +1,30 @@
+{
+  "app_id": "1808500",
+  "name": "ARC Raiders",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "amd_radv_icd", "radv_perftest_rt_nggc", "vkd3d_dxr11",
+      "fsr4_upgrade", "mesa_shader_cache_20g",
+      "high_priority", "exclusive_fs", "no_texture_streaming"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "nvapi", "vkd3d_dxr",
+      "high_priority", "exclusive_fs", "no_texture_streaming"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "high_priority", "exclusive_fs", "no_texture_streaming"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync", "proton_wayland",
+    "nvapi", "vkd3d_dxr", "vkd3d_dxr11",
+    "amd_radv_icd", "radv_perftest_rt_nggc", "fsr4_upgrade",
+    "mesa_shader_cache_20g",
+    "high_priority", "exclusive_fs", "no_texture_streaming",
+    "proton_log"
+  ],
+  "notes": "UE5 title with native EAC support on Linux. Uses VKD3D for DX12. NTSync greatly reduces CPU-bound traversal stutter. 'no_texture_streaming' and 'exclusive_fs' stabilize frame times in large open-world zones. AMD: vkd3d_dxr11 is the most stable RT path on RADV. NVIDIA: use vkd3d_dxr for RT."
+}

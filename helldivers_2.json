@@ -1,0 +1,26 @@
+{
+  "app_id": "553850",
+  "name": "Helldivers 2",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "amd_radv_icd", "force_dx11"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "nvapi"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync", "proton_wayland",
+    "nvapi", "vkd3d_dxr",
+    "no_esync", "no_fsync",
+    "amd_radv_icd", "force_dx11",
+    "mesa_shader_cache_10g",
+    "proton_log"
+  ],
+  "notes": "nProtect GameGuard works well via Proton. Highly CPU-intensive — NTSync greatly improves frame pacing. AMD: force_dx11 resolves common VKD3D performance regressions seen on RDNA hardware; use RADV ICD to ensure Mesa driver is active. NVIDIA: DX12 via VKD3D is generally stable, NVAPI unlocks DLSS."
+}

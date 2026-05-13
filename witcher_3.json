@@ -1,0 +1,28 @@
+{
+  "app_id": "292030",
+  "name": "The Witcher 3: Wild Hunt",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "skip_launcher",
+      "amd_radv_icd", "radv_perftest_rt_nggc", "vkd3d_dxr",
+      "fsr4_upgrade"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "skip_launcher",
+      "nvapi", "vkd3d_dxr"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "skip_launcher", "vkd3d_dxr"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync", "proton_wayland",
+    "nvapi", "vkd3d_dxr", "skip_launcher",
+    "amd_radv_icd", "radv_perftest_rt_nggc", "fsr4_upgrade",
+    "proton_log"
+  ],
+  "notes": "Next-Gen update uses DX12/VKD3D. Ray tracing via vkd3d_dxr works well on both AMD and NVIDIA. CD Projekt Red launcher can be safely bypassed with --launcher-skip. AMD: RADV ICD + RT perftest flags required for RT, FSR4 available on RDNA4 hardware. NVIDIA: NVAPI enables DLSS and RT integration."
+}

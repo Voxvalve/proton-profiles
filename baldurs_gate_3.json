@@ -1,0 +1,27 @@
+{
+  "app_id": "1086940",
+  "name": "Baldur's Gate 3",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync",
+      "skip_launcher", "force_vulkan",
+      "amd_radv_icd"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync",
+      "skip_launcher", "force_vulkan",
+      "nvapi"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync",
+      "skip_launcher", "force_vulkan"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync",
+    "nvapi", "skip_launcher", "force_vulkan", "force_dx11",
+    "no_esync", "proton_wayland", "fsr4_upgrade",
+    "amd_radv_icd", "proton_log"
+  ],
+  "notes": "Has a heavy Larian launcher that can be bypassed (--skip-launcher). Ships with both DX11 and Vulkan renderers — force_vulkan picks the Vulkan path which generally performs better on Linux. DX11/DXVK is a solid fallback if you encounter Vulkan issues. NVIDIA: NVAPI enables DLSS. AMD: RADV ICD ensures the Mesa Vulkan driver is used."
+}

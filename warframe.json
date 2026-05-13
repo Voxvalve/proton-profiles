@@ -1,0 +1,24 @@
+{
+  "app_id": "230410",
+  "name": "Warframe",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "amd_radv_icd"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "nvapi"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync", "proton_wayland",
+    "nvapi", "no_esync", "no_fsync",
+    "amd_radv_icd",
+    "proton_log"
+  ],
+  "notes": "Well-optimized DX11 game via DXVK. Has a built-in frame limiter so external frame capping via MangoHUD is generally unnecessary. AMD: RADV ICD ensures best Mesa Vulkan driver path. NVIDIA: NVAPI for better driver integration. Runs effortlessly on modern Proton versions."
+}

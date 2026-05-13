@@ -1,0 +1,48 @@
+{
+  "app_id": "1245620",
+  "name": "Elden Ring",
+  "recommended": {
+    "amd": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "amd_radv_icd",
+      "radv_perftest_rt_nggc",
+      "vkd3d_dxr",
+      "mesa_shader_cache_10g"
+    ],
+    "nvidia": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "nvapi",
+      "vkd3d_dxr"
+    ],
+    "default": [
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "vkd3d_dxr"
+    ]
+  },
+  "available": [
+    "gamemode",
+    "mangohud",
+    "ntsync",
+    "proton_wayland",
+    "nvapi",
+    "vkd3d_dxr",
+    "no_esync",
+    "no_fsync",
+    "amd_radv_icd",
+    "radv_perftest_rt_nggc",
+    "mesa_shader_cache_10g",
+    "amd_prime_offload",
+    "nvidia_prime_offload",
+    "proton_log"
+  ],
+  "notes": "DX12 via VKD3D. EAC is fully supported on Proton. vkd3d_dxr enables in-game Ray Tracing on both vendors. AMD: RADV RT + NGG flags required for RT support. Wayland provides excellent frame pacing."
+}

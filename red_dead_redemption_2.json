@@ -1,0 +1,24 @@
+{
+  "app_id": "1174180",
+  "name": "Red Dead Redemption 2",
+  "recommended": {
+    "amd": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "amd_radv_icd", "mesa_shader_cache_10g"
+    ],
+    "nvidia": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "nvapi"
+    ],
+    "default": [
+      "gamemode", "mangohud", "ntsync", "proton_wayland"
+    ]
+  },
+  "available": [
+    "gamemode", "mangohud", "ntsync", "proton_wayland",
+    "nvapi", "no_esync",
+    "amd_radv_icd", "mesa_shader_cache_10g",
+    "proton_log"
+  ],
+  "notes": "Defaults to the Vulkan API natively — no VKD3D overhead. AMD: RADV ICD and the 10G shader cache both help reduce traversal stutter in the large open world. NVIDIA: NVAPI provides better driver integration. Modding requires dll overrides via protontricks."
+}
