@@ -50,5 +50,5 @@
     "nvidia_prime_offload",
     "proton_log"
   ],
-  "notes": "DX12 via VKD3D. NVIDIA: NVAPI enables DLSS, Frame Generation and Reflex. AMD: RADV RT flags unlock ray tracing; use NGG-only if you don't want RT overhead. HDR requires Wayland + HDR display. For mods (RED4ext/CET) enable the Mod Support option. Add --launcher-skip to Extra Flags to bypass the REDlauncher."
+  "notes": "DX12 via VKD3D. NVIDIA: NVAPI enables DLSS, Frame Generation and Reflex. AMD: RADV RT flags unlock ray tracing; use NGG-only if you don't want RT overhead; FSR4 upgrade works natively on RDNA4 (older AMD cards can use OptiScaler). HDR requires Wayland + an HDR display. For mods (RED4ext/CET) enable the Mod Support option. Extra Flags tips: --launcher-skip bypasses the REDlauncher, -skipStartScreen also skips the 'press any key' screen."
 }

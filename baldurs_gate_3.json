@@ -3,25 +3,39 @@
   "name": "Baldur's Gate 3",
   "recommended": {
     "amd": [
-      "gamemode", "mangohud", "ntsync",
-      "skip_launcher", "force_vulkan",
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "skip_launcher",
       "amd_radv_icd"
     ],
     "nvidia": [
-      "gamemode", "mangohud", "ntsync",
-      "skip_launcher", "force_vulkan",
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "skip_launcher",
       "nvapi"
     ],
     "default": [
-      "gamemode", "mangohud", "ntsync",
-      "skip_launcher", "force_vulkan"
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "skip_launcher"
     ]
   },
   "available": [
-    "gamemode", "mangohud", "ntsync",
-    "nvapi", "skip_launcher", "force_vulkan", "force_dx11",
-    "no_esync", "proton_wayland", "fsr4_upgrade",
-    "amd_radv_icd", "proton_log"
+    "gamemode",
+    "mangohud",
+    "ntsync",
+    "nvapi",
+    "skip_launcher",
+    "force_vulkan",
+    "force_dx11",
+    "no_esync",
+    "proton_wayland",
+    "fsr4_upgrade",
+    "amd_radv_icd",
+    "proton_log"
   ],
-  "notes": "Has a heavy Larian launcher that can be bypassed (--skip-launcher). Ships with both DX11 and Vulkan renderers — force_vulkan picks the Vulkan path which generally performs better on Linux. DX11/DXVK is a solid fallback if you encounter Vulkan issues. NVIDIA: NVAPI enables DLSS. AMD: RADV ICD ensures the Mesa Vulkan driver is used."
+  "notes": "Since Patch 8 the Vulkan renderer crashes on many Proton systems — the game now runs best on its DX11 path (via DXVK). If the game crashes before the menu, pick 'Baldur's Gate 3 (DirectX 11)' in Steam's play dialog. force_vulkan remains available but is no longer recommended on Proton. The Larian launcher is bypassed with --skip-launcher. NVIDIA: NVAPI enables DLSS. AMD: RADV ICD ensures the Mesa Vulkan driver is used."
 }

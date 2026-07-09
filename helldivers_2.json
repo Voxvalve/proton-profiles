@@ -3,24 +3,42 @@
   "name": "Helldivers 2",
   "recommended": {
     "amd": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland",
-      "amd_radv_icd", "force_dx11"
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "amd_radv_icd",
+      "force_dx11",
+      "dxvk_async"
     ],
     "nvidia": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
       "nvapi"
     ],
     "default": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland"
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland"
     ]
   },
   "available": [
-    "gamemode", "mangohud", "ntsync", "proton_wayland",
-    "nvapi", "vkd3d_dxr",
-    "no_esync", "no_fsync",
-    "amd_radv_icd", "force_dx11",
+    "gamemode",
+    "mangohud",
+    "ntsync",
+    "proton_wayland",
+    "nvapi",
+    "vkd3d_dxr",
+    "no_esync",
+    "no_fsync",
+    "amd_radv_icd",
+    "dxvk_async",
+    "force_dx11",
     "mesa_shader_cache_10g",
     "proton_log"
   ],
-  "notes": "nProtect GameGuard works well via Proton. Highly CPU-intensive — NTSync greatly improves frame pacing. AMD: force_dx11 resolves common VKD3D performance regressions seen on RDNA hardware; use RADV ICD to ensure Mesa driver is active. NVIDIA: DX12 via VKD3D is generally stable, NVAPI unlocks DLSS."
+  "notes": "nProtect GameGuard works via Proton, but DO NOT force GE-Proton — recent reports show anti-cheat crashes with GE; leave the Steam default (Valve keeps this game on Proton Hotfix and patches breakage within a day). Very CPU-intensive — NTSync greatly improves frame pacing. AMD: force_dx11 resolves VKD3D regressions on RDNA and pairs well with DXVK Async; note the new in-game upscalers (FSR3) only work on the DX12 path, so it's DX11 smoothness vs DX12 upscaling. NVIDIA: DX12/VKD3D is generally stable and NVAPI unlocks DLSS."
 }

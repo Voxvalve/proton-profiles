@@ -3,22 +3,38 @@
   "name": "Palworld",
   "recommended": {
     "amd": [
-      "gamemode", "mangohud", "ntsync",
-      "amd_radv_icd", "mesa_shader_cache_10g"
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
+      "amd_radv_icd",
+      "mesa_shader_cache_10g"
     ],
     "nvidia": [
-      "gamemode", "mangohud", "ntsync",
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland",
       "nvapi"
     ],
     "default": [
-      "gamemode", "mangohud", "ntsync"
+      "gamemode",
+      "mangohud",
+      "ntsync",
+      "proton_wayland"
     ]
   },
   "available": [
-    "gamemode", "mangohud", "ntsync",
-    "nvapi", "vkd3d_dxr", "no_esync",
-    "proton_wayland", "fsr4_upgrade",
-    "amd_radv_icd", "mesa_shader_cache_10g",
+    "gamemode",
+    "mangohud",
+    "ntsync",
+    "nvapi",
+    "vkd3d_dxr",
+    "no_esync",
+    "proton_wayland",
+    "fsr4_upgrade",
+    "amd_radv_icd",
+    "mesa_shader_cache_10g",
     "proton_log"
   ],
   "notes": "UE5 DX12 game. Prone to shader stuttering on fresh installs. AMD: 10G mesa cache prevents stutter while streaming assets across diverse biomes; RADV ICD gives best AMD Vulkan performance. NVIDIA: NVAPI enables DLSS upscaling."
