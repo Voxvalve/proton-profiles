@@ -4,47 +4,21 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland",
-      "amd_radv_icd",
-      "radv_perftest_rt_nggc",
-      "vkd3d_dxr11",
-      "fsr4_upgrade",
-      "mesa_shader_cache_20g"
+      "mesa_shader_cache_10g"
     ],
     "nvidia": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland",
-      "nvapi",
-      "vkd3d_dxr"
+      "nvapi"
     ],
     "default": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland"
     ]
   },
-  "available": [
-    "gamemode",
-    "mangohud",
-    "ntsync",
-    "proton_wayland",
-    "nvapi",
-    "vkd3d_dxr",
-    "vkd3d_dxr11",
-    "amd_radv_icd",
-    "radv_perftest_rt_nggc",
-    "fsr4_upgrade",
-    "mesa_shader_cache_20g",
-    "high_priority",
-    "exclusive_fs",
-    "no_texture_streaming",
-    "proton_log",
-    "pulse_latency"
-  ],
-  "notes": "UE5 title with native EAC support — Steam Deck Verified since Proton 10.0-3. Proton Wayland fixes the random 60 FPS cap and alt-tab crashes during loading cutscenes. IMPORTANT: also enable Settings → Accessibility → 'Bring game to foreground on match found' in-game — this stops the match-found freeze. NTSync improves 1% lows (kernel 6.14+). AMD: vkd3d_dxr11 is the most stable RT path on RADV. NVIDIA: use vkd3d_dxr; if DX12 stutters badly add -dx11 to Extra Flags. Audio crackle: try the PulseAudio latency fix (PipeWire users should ensure pipewire-pulse is active). The UE5 tuning flags (high priority, exclusive fullscreen, no texture streaming) are situational — test per system."
+  "notes": "Works with the Steam default Proton — Easy Anti-Cheat is supported. In the game's Accessibility settings, turn on 'Bring game to foreground on match found': it stops the freeze when a match is found. If the game is stuck at 60 FPS or crashes when you alt-tab, keep Smoother display on. NVIDIA: DLSS works."
 }
