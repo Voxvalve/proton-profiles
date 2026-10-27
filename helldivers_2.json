@@ -4,21 +4,14 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "force_dx11"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "nvapi"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
-  "notes": "Keep Proton on the Steam default — GE-Proton currently crashes the anti-cheat. The game is very CPU-heavy, so Better performance helps a lot. AMD: the game runs in DirectX 11 mode, which is smoother on Radeon cards (the in-game upscalers need DirectX 12)."
+  "notes": "If the game won't start on GE-Proton or Proton-CachyOS, switch back to the Steam default Proton (the anti-cheat is picky). The game is very CPU-heavy, so GameMode helps. AMD: the game runs in DirectX 11 mode, which is smoother on Radeon cards (the in-game upscalers need DirectX 12)."
 }

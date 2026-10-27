@@ -4,24 +4,17 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "redlauncher_skip",
       "mesa_shader_cache_10g"
     ],
     "nvidia": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "redlauncher_skip",
-      "nvapi"
+      "redlauncher_skip"
     ],
     "default": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "redlauncher_skip"
     ]
   },
-  "notes": "Skips the REDlauncher. Ray tracing and FSR work out of the box; NVIDIA: DLSS, frame generation and Reflex work. The game supports HDR — turn on HDR if your screen does. For mods (RED4ext / Cyber Engine Tweaks) turn on Mod support under Advanced."
+  "notes": "Skips the REDlauncher. Ray tracing and FSR work out of the box; NVIDIA: DLSS, frame generation and Reflex work. The game supports HDR — turn on HDR if your screen does. For mods (RED4ext / Cyber Engine Tweaks) turn on the RED4ext mod setting."
 }

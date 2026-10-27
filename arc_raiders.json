@@ -4,21 +4,14 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "mesa_shader_cache_10g"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "nvapi"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
-  "notes": "Works with the Steam default Proton — Easy Anti-Cheat is supported. In the game's Accessibility settings, turn on 'Bring game to foreground on match found': it stops the freeze when a match is found. If the game is stuck at 60 FPS or crashes when you alt-tab, keep Smoother display on. NVIDIA: DLSS works."
+  "notes": "Works with the Steam default Proton — Easy Anti-Cheat is supported. In the game's Accessibility settings, turn on 'Bring game to foreground on match found': it stops the freeze when a match is found. If the game is stuck at 60 FPS or crashes when you alt-tab, try Native Wayland (needs GE-Proton or Proton-CachyOS). NVIDIA: DLSS works."
 }

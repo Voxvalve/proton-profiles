@@ -4,18 +4,14 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
       "skip_launcher"
     ],
     "nvidia": [
       "gamemode",
-      "ntsync",
-      "skip_launcher",
-      "nvapi"
+      "skip_launcher"
     ],
     "default": [
       "gamemode",
-      "ntsync",
       "skip_launcher"
     ]
   },

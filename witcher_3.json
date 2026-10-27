@@ -4,21 +4,14 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "redlauncher_skip"
     ],
     "nvidia": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "redlauncher_skip",
-      "nvapi"
+      "redlauncher_skip"
     ],
     "default": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "redlauncher_skip"
     ]
   },

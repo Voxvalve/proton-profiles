@@ -4,19 +4,13 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "mesa_shader_cache_10g"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
   "notes": "Easy Anti-Cheat works on Linux. Ray tracing works on AMD and NVIDIA without extra settings. On AMD, the larger shader cache reduces stutter in the open world."
