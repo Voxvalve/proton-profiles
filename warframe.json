@@ -3,22 +3,21 @@
   "name": "Warframe",
   "recommended": {
     "amd": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland",
-      "amd_radv_icd"
+      "gamemode",
+      "ntsync",
+      "proton_wayland"
     ],
     "nvidia": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland",
+      "gamemode",
+      "ntsync",
+      "proton_wayland",
       "nvapi"
     ],
     "default": [
-      "gamemode", "mangohud", "ntsync", "proton_wayland"
+      "gamemode",
+      "ntsync",
+      "proton_wayland"
     ]
   },
-  "available": [
-    "gamemode", "mangohud", "ntsync", "proton_wayland",
-    "nvapi", "no_esync", "no_fsync",
-    "amd_radv_icd",
-    "proton_log"
-  ],
-  "notes": "Well-optimized DX11 game via DXVK. Has a built-in frame limiter so external frame capping via MangoHUD is generally unnecessary. AMD: RADV ICD ensures best Mesa Vulkan driver path. NVIDIA: NVAPI for better driver integration. Runs effortlessly on modern Proton versions."
+  "notes": "Runs great. Use the game's own frame limiter in its settings. NVIDIA: DLSS works."
 }

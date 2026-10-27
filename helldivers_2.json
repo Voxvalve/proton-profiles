@@ -4,41 +4,21 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland",
-      "amd_radv_icd",
-      "force_dx11",
-      "dxvk_async"
+      "force_dx11"
     ],
     "nvidia": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland",
       "nvapi"
     ],
     "default": [
       "gamemode",
-      "mangohud",
       "ntsync",
       "proton_wayland"
     ]
   },
-  "available": [
-    "gamemode",
-    "mangohud",
-    "ntsync",
-    "proton_wayland",
-    "nvapi",
-    "vkd3d_dxr",
-    "no_esync",
-    "no_fsync",
-    "amd_radv_icd",
-    "dxvk_async",
-    "force_dx11",
-    "mesa_shader_cache_10g",
-    "proton_log"
-  ],
-  "notes": "nProtect GameGuard works via Proton, but DO NOT force GE-Proton — recent reports show anti-cheat crashes with GE; leave the Steam default (Valve keeps this game on Proton Hotfix and patches breakage within a day). Very CPU-intensive — NTSync greatly improves frame pacing. AMD: force_dx11 resolves VKD3D regressions on RDNA and pairs well with DXVK Async; note the new in-game upscalers (FSR3) only work on the DX12 path, so it's DX11 smoothness vs DX12 upscaling. NVIDIA: DX12/VKD3D is generally stable and NVAPI unlocks DLSS."
+  "notes": "Keep Proton on the Steam default — GE-Proton currently crashes the anti-cheat. The game is very CPU-heavy, so Better performance helps a lot. AMD: the game runs in DirectX 11 mode, which is smoother on Radeon cards (the in-game upscalers need DirectX 12)."
 }
