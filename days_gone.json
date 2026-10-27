@@ -3,19 +3,13 @@
   "name": "Days Gone",
   "recommended": {
     "amd": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
   "notes": "Runs great with these settings. The game supports HDR — turn on HDR if your screen does."

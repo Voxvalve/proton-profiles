@@ -3,20 +3,13 @@
   "name": "Warframe",
   "recommended": {
     "amd": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "nvapi"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
   "notes": "Runs great. Use the game's own frame limiter in its settings. NVIDIA: DLSS works."

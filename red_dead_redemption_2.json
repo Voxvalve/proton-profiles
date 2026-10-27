@@ -4,20 +4,13 @@
   "recommended": {
     "amd": [
       "gamemode",
-      "ntsync",
-      "proton_wayland",
       "mesa_shader_cache_10g"
     ],
     "nvidia": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland",
-      "nvapi"
+      "gamemode"
     ],
     "default": [
-      "gamemode",
-      "ntsync",
-      "proton_wayland"
+      "gamemode"
     ]
   },
   "notes": "Runs on Vulkan directly, so it performs very well. On AMD, the larger shader cache reduces stutter in the open world. NVIDIA: DLSS works. Mods need extra setup outside this app."
