@@ -1,6 +1,6 @@
 # proton-profiles
 
-Community game profiles for [Game Control Hub](https://github.com/Voxvalve/Proton-Launch-Manager).
+Community game profiles for Game Control Hub.
 They power the **✦ Optimize** button: one click applies the settings below for the player's graphics card.
 
 ## Format
