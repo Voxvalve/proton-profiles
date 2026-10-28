@@ -2,16 +2,9 @@
   "app_id": "3010850",
   "name": "Gears of War: E-Day",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Runs through Proton (ProtonDB Gold). Easy Anti-Cheat is on and multiplayer has been played on SteamOS. Needs a graphics card with ray tracing (Radeon RX 6000 / GeForce RTX 20 or newer) and about 10 GB of VRAM at 1440p. Let the shader compilation at first start finish. Don't switch between Fullscreen and Borderless in the game: it can crash. Change it, then restart the game. AMD: the game's own FSR 4 needs AMD's FSR 4 file, which only GE-Proton and Proton-CachyOS provide. With GE-Proton, turn on FSR Upscaling here. Proton-CachyOS adds it by itself. To use the game's FSR Frame Generation, also turn on FSR Frame Generation here. Frame generation is only worth it at 60+ FPS. NVIDIA: DLSS 4.5 and frame generation work. Try Reflex both on and off, because it hurt frame pacing in some tests. Biggest FPS gains: Reflections on Medium, and RTX Mega Geometry and Hair Strands off. PlayStation controllers: rumble doesn't work under Proton yet, but adaptive triggers and gyro do. The game supports HDR, so turn on HDR if your screen does."
 }

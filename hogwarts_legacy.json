@@ -2,16 +2,9 @@
   "app_id": "990080",
   "name": "Hogwarts Legacy",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Uses a lot of video memory. On AMD, the larger shader cache reduces stutter around Hogsmeade. NVIDIA: DLSS and frame generation work."
 }

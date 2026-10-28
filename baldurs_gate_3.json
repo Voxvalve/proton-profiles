@@ -2,18 +2,9 @@
   "app_id": "1086940",
   "name": "Baldur's Gate 3",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "skip_launcher"
-    ],
-    "nvidia": [
-      "gamemode",
-      "skip_launcher"
-    ],
-    "default": [
-      "gamemode",
-      "skip_launcher"
-    ]
+    "amd": "gamemoderun %command% --skip-launcher",
+    "nvidia": "gamemoderun %command% --skip-launcher",
+    "default": "gamemoderun %command% --skip-launcher"
   },
   "notes": "Skips the Larian launcher. If the game crashes before the main menu, choose 'Baldur's Gate 3 (DirectX 11)' when Steam asks how to start it — the Vulkan version has been unstable on Linux since Patch 8. NVIDIA: DLSS works."
 }

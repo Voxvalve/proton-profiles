@@ -2,16 +2,9 @@
   "app_id": "1808500",
   "name": "ARC Raiders",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Works with the Steam default Proton — Easy Anti-Cheat is supported. In the game's Accessibility settings, turn on 'Bring game to foreground on match found': it stops the freeze when a match is found. If the game is stuck at 60 FPS or crashes when you alt-tab, try Native Wayland (needs GE-Proton or Proton-CachyOS). NVIDIA: DLSS works."
 }

@@ -2,16 +2,9 @@
   "app_id": "1174180",
   "name": "Red Dead Redemption 2",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Runs on Vulkan directly, so it performs very well. On AMD, the larger shader cache reduces stutter in the open world. NVIDIA: DLSS works. Mods need extra setup outside this app."
 }
