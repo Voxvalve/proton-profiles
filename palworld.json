@@ -2,16 +2,9 @@
   "app_id": "1623730",
   "name": "Palworld",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Stutters on first launch while shaders build; the larger shader cache helps on AMD. NVIDIA: DLSS works."
 }

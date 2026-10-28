@@ -2,19 +2,9 @@
   "app_id": "1091500",
   "name": "Cyberpunk 2077",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "redlauncher_skip",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode",
-      "redlauncher_skip"
-    ],
-    "default": [
-      "gamemode",
-      "redlauncher_skip"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command% --launcher-skip",
+    "nvidia": "gamemoderun %command% --launcher-skip",
+    "default": "gamemoderun %command% --launcher-skip"
   },
   "notes": "Skips the REDlauncher. Ray tracing and FSR work out of the box; NVIDIA: DLSS, frame generation and Reflex work. The game supports HDR — turn on HDR if your screen does. For mods (RED4ext / Cyber Engine Tweaks) turn on the RED4ext mod setting."
 }

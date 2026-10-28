@@ -2,16 +2,9 @@
   "app_id": "1245620",
   "name": "Elden Ring",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "mesa_shader_cache_10g"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "MESA_SHADER_CACHE_MAX_SIZE=10G gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Easy Anti-Cheat works on Linux. Ray tracing works on AMD and NVIDIA without extra settings. On AMD, the larger shader cache reduces stutter in the open world."
 }

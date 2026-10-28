@@ -2,15 +2,9 @@
   "app_id": "230410",
   "name": "Warframe",
   "recommended": {
-    "amd": [
-      "gamemode"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Runs great. Use the game's own frame limiter in its settings. NVIDIA: DLSS works."
 }

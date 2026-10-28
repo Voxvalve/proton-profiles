@@ -2,16 +2,9 @@
   "app_id": "553850",
   "name": "Helldivers 2",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "force_dx11"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "gamemoderun %command% --use-d3d11",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "If the game won't start on GE-Proton or Proton-CachyOS, switch back to the Steam default Proton (the anti-cheat is picky). The game is very CPU-heavy, so GameMode helps. AMD: the game runs in DirectX 11 mode, which is smoother on Radeon cards (the in-game upscalers need DirectX 12)."
 }

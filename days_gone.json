@@ -2,15 +2,9 @@
   "app_id": "1259420",
   "name": "Days Gone",
   "recommended": {
-    "amd": [
-      "gamemode"
-    ],
-    "nvidia": [
-      "gamemode"
-    ],
-    "default": [
-      "gamemode"
-    ]
+    "amd": "gamemoderun %command%",
+    "nvidia": "gamemoderun %command%",
+    "default": "gamemoderun %command%"
   },
   "notes": "Runs great with these settings. The game supports HDR — turn on HDR if your screen does."
 }

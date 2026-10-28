@@ -2,18 +2,9 @@
   "app_id": "292030",
   "name": "The Witcher 3: Wild Hunt",
   "recommended": {
-    "amd": [
-      "gamemode",
-      "redlauncher_skip"
-    ],
-    "nvidia": [
-      "gamemode",
-      "redlauncher_skip"
-    ],
-    "default": [
-      "gamemode",
-      "redlauncher_skip"
-    ]
+    "amd": "gamemoderun %command% --launcher-skip",
+    "nvidia": "gamemoderun %command% --launcher-skip",
+    "default": "gamemoderun %command% --launcher-skip"
   },
   "notes": "Skips the CD Projekt launcher. The next-gen update supports ray tracing and FSR out of the box; NVIDIA: DLSS works."
 }
